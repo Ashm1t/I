@@ -2,15 +2,33 @@
 
 phase:
 
-laboratory initialization
+laboratory initialization complete
 
 current_focus:
 
-research skeleton establishment
+APC
+
+GRM
+
+Dream formalization
 
 implemented:
 
-none
+.gitignore
+
+research/templates/EXPERIMENT_TEMPLATE.md
+
+research/templates/HYPOTHESIS_TEMPLATE.md
+
+research/templates/REVIEW_TEMPLATE.md
+
+validated/VALIDATION_PROTOCOL.md
+
+research/gpt/architecture/APC_v0.md
+
+research/gpt/architecture/GRM_v0.md
+
+research/claude/theory/dreaming_v0.md
 
 active_hypotheses:
 
@@ -23,6 +41,12 @@ Dream replay improves retention
 H-003:
 APC enables memory recombination
 
+H-004:
+GRM performs structured reconstruction
+
+H-005:
+Self model improves coherence
+
 open_problems:
 
 Define APC
@@ -33,12 +57,14 @@ Define dreaming process
 
 Define self representation
 
+Plastic adapter mechanism
+
 next_actions:
 
-Create research ledger
+Formalize APC architecture
 
-Formalize APC
+Formalize GRM architecture
 
-Formalize GRM
+Formalize dream process
 
-Create first experiment
+Design first experiment

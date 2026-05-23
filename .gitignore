@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Models
+models/
+*.pt
+*.pth
+*.bin
+*.onnx
+
+# Checkpoints
+checkpoints/
+*.ckpt
+
+# Logs
+logs/
+*.log
+wandb/
+
+# Dataset cache
+data/
+*.csv
+*.parquet
+*.h5
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OpenCode
+.opencode/cache/
+
+# Experiment artifacts
+experiments/
+results/
+outputs/
+runs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Config with secrets
+.env
+*.local
